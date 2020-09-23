@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>This is an index page.</h2>
+    <img style="alignment: center; height: 50px; width: 50px;" src="{{ url_for('static',filename='test/-.jpg') }}"><br>
+    {{ message }}
+    <form method="post" name="form" action="test">
+        <input type="number" name="number1"><br>
+        <input type="number" name="number2"><br>
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
